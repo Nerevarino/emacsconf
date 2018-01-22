@@ -1,4 +1,4 @@
-configs=baseconf.elc helmconf.elc hgtconf.elc hyasm.elc
+configs=baseconf.elc helmconf.elc hgtconf.elc hyasm.elc acconf.elc
 dir=~/projects/elisp/emacsconf
 
 
@@ -15,6 +15,9 @@ hgtconf.elc: hgtconf.el
 
 hyasm.elc: hyasm.el
 	emacsclient -s OS -e '(byte-compile-file "$(dir)/hyasm.el")'
+
+acconf.elc: acconf.el
+	emacsclient -s OS -e '(byte-compile-file "$(dir)/acconf.el")'
 
 apply:
 	cp -r $(configs) ~/.emacs.d/
