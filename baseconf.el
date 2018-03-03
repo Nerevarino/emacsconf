@@ -1,6 +1,7 @@
 (require 'package)
 (package-initialize)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")))
+;(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 
 ;; (load-file "~/.emacs.d/baseconf.elc")
 ;; (load-file "~/.emacs.d/helmconf.elc")

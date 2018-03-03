@@ -1,0 +1,10 @@
+(progn
+  (package-install 'yasnippet)
+  (package-install 'yasnippet-snippets)
+  (package-install 'php-mode)
+  (package-install 'company-php)
+  (package-install 'helm)
+  (package-install 'helm-company)
+  (package-install 'helm-gtags)
+  (package-install 'emacssql-pgsql)
+)
