@@ -1,0 +1,3 @@
+sudo DEBIAN_FRONTEND=readline apt-get --quiet install  wine-stable winetricks wine64 wine64-preloader wine64-tools wine-binfmt
+sudo DEBIAN_FRONTEND=readline apt-get --quiet install  virtualbox virtualbox-guest-additions-iso virtualbox-dkms virtualbox-ext-pack virtualbox-guest-dkms virtualbox-guest-dkms-hwe virtualbox-guest-source virtualbox-guest-source-hwe virtualbox-guest-utils virtualbox-guest-utils-hwe virtualbox-guest-x11 virtualbox-guest-x11-hwe virtualbox-qt
+sudo DEBIAN_FRONTEND=readline apt-get --quiet install  virtualbox virtualbox-guest-additions-iso
